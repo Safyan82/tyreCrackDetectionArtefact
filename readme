@@ -1,0 +1,63 @@
+Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount("/content/drive", force_remount=True).
+Found 677 images belonging to 2 classes.
+Found 651 images belonging to 2 classes.
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ mobilenetv2_1.00_224 (Func  (None, 7, 7, 1280)        2257984   
+ tional)                                                         
+                                                                 
+ global_average_pooling2d_3  (None, 1280)              0         
+  (GlobalAveragePooling2D)                                       
+                                                                 
+ dense_4 (Dense)             (None, 128)               163968    
+                                                                 
+ dropout_2 (Dropout)         (None, 128)               0         
+                                                                 
+ dense_5 (Dense)             (None, 1)                 129       
+                                                                 
+=================================================================
+Total params: 2422081 (9.24 MB)
+Trainable params: 2025537 (7.73 MB)
+Non-trainable params: 396544 (1.51 MB)
+_________________________________________________________________
+Epoch 1/20
+22/22 [==============================] - 157s 7s/step - loss: 2.4474 - accuracy: 0.7991 - precision_7: 0.7730 - recall_7: 0.8252 - val_loss: 2.4697 - val_accuracy: 0.8111 - val_precision_7: 0.7325 - val_recall_7: 0.9338
+Epoch 2/20
+22/22 [==============================] - 151s 7s/step - loss: 1.6816 - accuracy: 0.8730 - precision_7: 0.8371 - recall_7: 0.9141 - val_loss: 3.9827 - val_accuracy: 0.7250 - val_precision_7: 0.6279 - val_recall_7: 1.0000
+Epoch 3/20
+22/22 [==============================] - 152s 7s/step - loss: 1.1900 - accuracy: 0.9173 - precision_7: 0.8971 - recall_7: 0.9356 - val_loss: 2.6499 - val_accuracy: 0.8172 - val_precision_7: 0.7173 - val_recall_7: 1.0000
+Epoch 4/20
+22/22 [==============================] - 149s 7s/step - loss: 0.9577 - accuracy: 0.8922 - precision_7: 0.8604 - recall_7: 0.9264 - val_loss: 2.4659 - val_accuracy: 0.8264 - val_precision_7: 0.7480 - val_recall_7: 0.9437
+Epoch 5/20
+22/22 [==============================] - 144s 7s/step - loss: 0.7710 - accuracy: 0.8996 - precision_7: 0.8707 - recall_7: 0.9294 - val_loss: 6.1690 - val_accuracy: 0.6482 - val_precision_7: 0.8687 - val_recall_7: 0.2848
+Epoch 6/20
+22/22 [==============================] - 104s 5s/step - loss: 0.5611 - accuracy: 0.9394 - precision_7: 0.9254 - recall_7: 0.9509 - val_loss: 2.8618 - val_accuracy: 0.7496 - val_precision_7: 0.6514 - val_recall_7: 0.9901
+Epoch 7/20
+22/22 [==============================] - 105s 5s/step - loss: 0.4462 - accuracy: 0.9247 - precision_7: 0.8895 - recall_7: 0.9632 - val_loss: 5.4416 - val_accuracy: 0.6436 - val_precision_7: 0.9070 - val_recall_7: 0.2583
+Epoch 8/20
+22/22 [==============================] - 104s 5s/step - loss: 0.3804 - accuracy: 0.9409 - precision_7: 0.9307 - recall_7: 0.9479 - val_loss: 1.1085 - val_accuracy: 0.8587 - val_precision_7: 0.8125 - val_recall_7: 0.9040
+Epoch 9/20
+22/22 [==============================] - 144s 7s/step - loss: 0.3641 - accuracy: 0.9380 - precision_7: 0.9176 - recall_7: 0.9571 - val_loss: 3.9153 - val_accuracy: 0.8095 - val_precision_7: 0.7089 - val_recall_7: 1.0000
+Epoch 10/20
+22/22 [==============================] - 146s 7s/step - loss: 0.2657 - accuracy: 0.9513 - precision_7: 0.9399 - recall_7: 0.9601 - val_loss: 4.3003 - val_accuracy: 0.7465 - val_precision_7: 0.6467 - val_recall_7: 1.0000
+Epoch 11/20
+22/22 [==============================] - 145s 7s/step - loss: 0.2438 - accuracy: 0.9439 - precision_7: 0.9390 - recall_7: 0.9448 - val_loss: 1.7694 - val_accuracy: 0.8495 - val_precision_7: 0.7576 - val_recall_7: 0.9934
+Epoch 12/20
+22/22 [==============================] - 144s 7s/step - loss: 0.2354 - accuracy: 0.9513 - precision_7: 0.9322 - recall_7: 0.9693 - val_loss: 0.6989 - val_accuracy: 0.8802 - val_precision_7: 0.8043 - val_recall_7: 0.9801
+Epoch 13/20
+22/22 [==============================] - 103s 5s/step - loss: 0.2329 - accuracy: 0.9453 - precision_7: 0.9339 - recall_7: 0.9540 - val_loss: 2.0293 - val_accuracy: 0.8203 - val_precision_7: 0.7208 - val_recall_7: 1.0000
+Epoch 14/20
+22/22 [==============================] - 144s 7s/step - loss: 0.2149 - accuracy: 0.9601 - precision_7: 0.9572 - recall_7: 0.9601 - val_loss: 1.3499 - val_accuracy: 0.8725 - val_precision_7: 0.8050 - val_recall_7: 0.9570
+Epoch 15/20
+22/22 [==============================] - 144s 7s/step - loss: 0.1761 - accuracy: 0.9631 - precision_7: 0.9520 - recall_7: 0.9724 - val_loss: 1.4107 - val_accuracy: 0.8510 - val_precision_7: 0.7595 - val_recall_7: 0.9934
+Epoch 16/20
+22/22 [==============================] - 146s 7s/step - loss: 0.1775 - accuracy: 0.9468 - precision_7: 0.9503 - recall_7: 0.9387 - val_loss: 0.7373 - val_accuracy: 0.8664 - val_precision_7: 0.8045 - val_recall_7: 0.9404
+Epoch 17/20
+22/22 [==============================] - 103s 5s/step - loss: 0.1653 - accuracy: 0.9468 - precision_7: 0.9421 - recall_7: 0.9479 - val_loss: 0.7191 - val_accuracy: 0.8925 - val_precision_7: 0.8372 - val_recall_7: 0.9536
+21/21 [==============================] - 42s 2s/step - loss: 0.6989 - accuracy: 0.8802 - precision_7: 0.8043 - recall_7: 0.9801
+Test Loss: 0.6989399790763855
+Test Accuracy: 0.8801843523979187
+Test Precision: 0.804347813129425
+Test Recall: 0.9801324605941772
